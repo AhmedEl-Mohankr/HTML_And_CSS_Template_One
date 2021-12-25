@@ -1,6 +1,3 @@
-
-/* Start variables */
-
 :root {
     --main-color: #10cab7;
     --secondary-color: #2c4755;
@@ -9,12 +6,6 @@
     --main-duration: 0.3s;
 }
 
-
-
-/* End Variables */
-
-
-/* start with Global rules  */
 
 * {
     -webkit-box-sizing: border-box;
@@ -37,31 +28,23 @@ body {
     margin-right: auto;
 }
 
-/* screens resolutions */
-/* 1- small */
 @media (min-width: 768px) {
     .container{
         width: 750px;
     }
 }
 
-/* 2- medium */
 @media (min-width: 992px) {
     .container {
         width: 970px;
     }
 }
 
-/* 3- large */
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
     }
 }
-
-/* End of Global rules  */
-
-/* Start components */
 
 .special-heading {
     color: #ebeced;
@@ -87,8 +70,6 @@ body {
     }
     
 }
-/* End Components */
-/* start Header */
 .header {
     padding: 20px;
 }
@@ -107,7 +88,6 @@ body {
     position: relative;
 }
 
-/* this to make the second span in the menu icon goes towards in 100% using transition */
 .header .links:hover .icon span:nth-child(2) {
     width: 100%;
 }
@@ -183,9 +163,7 @@ body {
     border-bottom: 1px solid #ddd;
 
 }
-/* End Header */
 
-/* Start Landing Section */
 .landing {
     background-image: url(../imgs/Landing.png);
     background-size: cover;
@@ -215,8 +193,6 @@ body {
 
 }
 
-/* End Landing Section */
-/* Start Features Section */
 .features {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
@@ -248,9 +224,7 @@ body {
     font-size: 17px;
 }
 
-/* End Features section */
 
-/* Start Services */
 .services {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
@@ -320,9 +294,7 @@ body {
     }
     
 }
-/* End Services */
 
-/* Start Portfolio Section */
 .portfolio {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
@@ -356,7 +328,6 @@ body {
     margin-bottom: 0;
 }
 
-/* End Portfolio Section */
 
 /* Start about Section */
 .about {
@@ -442,11 +413,6 @@ body {
 }
 
 
-
-
-/* End about Section */
-
-/* Start Contact Section */
 .contact {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
@@ -495,8 +461,6 @@ body {
     }
 }
 
-/* End Contact Section */
-/* Start Footer */
 .footer {
     background-color: var(--secondary-color);
     color: white;
@@ -509,7 +473,3 @@ body {
     color: var(--main-color);
 }
 
-
-
-
-/* End Footer */
